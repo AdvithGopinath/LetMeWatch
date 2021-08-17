@@ -1,7 +1,7 @@
 {
-  "name": "extension-skeleton",
-  "version": "0.3.0",
-  "description": "Bare Google Chrome extension skeleton.",
+  "name": "Let Me Watch",
+  "version": "1.0",
+  "description": "Watch movies and TV for free!",
   "engines": {
     "node": "7.0.0",
     "npm": "3.10.8"
