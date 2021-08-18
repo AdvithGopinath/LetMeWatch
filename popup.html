@@ -1,0 +1,77 @@
+<!--V1 POPUP.HTML-->
+
+<!--DOCTYPE html>
+<html>
+    <head>
+      <title>Popup</title>
+      <link rel="stylesheet" type="text/css" href="../css/common.css">
+      <script src="../js/popup.js" type="text/javascript"></script>
+        </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Search Movie</legend>
+        <table>
+          <tr>
+            <td>
+              <input type="text"  name="" id="user_input_title">
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <div>
+        <button id="submit">Go!</button>
+      </div>
+    </form>
+  </body>
+</html-->
+
+
+
+<!--V2 POPUP.HTML-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--section class="hero is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Movie Compare
+            <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section-->
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div id="autocomplete">
+          </div>
+          <div id="summary"></div>
+        </div>
+
+      <!--div class="column is-half notification is-primary tutorial">
+        <h1 class="title">Search For Movies on Both Sides</h1>
+        <p class="subtitle">Check to see which is the best!</p>
+      </div-->
+    </div>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
