@@ -1,5 +1,0 @@
-node_modules/** filter=lfs diff=lfs merge=lfs -text
-build/** filter=lfs diff=lfs merge=lfs -text
-assets/** filter=lfs diff=lfs merge=lfs -text
-src/** filter=lfs diff=lfs merge=lfs -text
-webpack/** filter=lfs diff=lfs merge=lfs -text

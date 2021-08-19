@@ -2,8 +2,12 @@ const autoCompleteConfig = {
 	renderOption(movie) {
 		const imgSrc = movie.Poster === 'N/A' ? '' : movie.Poster;
 		return `
+			
             <img src="${imgSrc}" />     
+			<div class = "description">
             ${movie.Title} (${movie.Year})
+			</div>
+			
             `;
 	},
 	inputValue(movie) {
@@ -31,7 +35,7 @@ createAutoComplete({
 	root: document.querySelector('#autocomplete'),
 	onOptionSelect(movie) {
 		document.querySelector('.tutorial').classList.add('is-hidden');
-		onMovieSelect(movie, document.querySelector('#summary'));
+		//onMovieSelect(movie, document.querySelector('#summary'));
 	},
 });
 
