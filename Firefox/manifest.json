@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "LetMeWatch",
+    "version": "1.85",
+    "description": "LetMeWatch: A seamless watching experience in a Chrome extension.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": ["/js/background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "/images/LMWlogo.png"
+    },
+
+    "icons": {
+        "48": "/images/LMWLogo48.png",
+        "96": "/images/LMWLogo96.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Alt+M"
+            }
+        }
+    }
+}

@@ -1,0 +1,1077 @@
+                                                    .tutorial {
+                                                        width: 300px;
+                                                        text-align: center;
+                                                        margin: auto;
+                                                    }
+                                                    
+                                                    figure.image {
+                                                        display: flex;
+                                                        justify-content: right;
+                                                        background-color: black;
+                                                    }
+                                                    
+                                                    figure .image img {
+                                                        justify-content: right;
+                                                        height: 190px;
+                                                        border-radius: 3px;
+                                                        /*max-width: 120px;*/
+                                                    }
+                                                    
+                                                    .notification {
+                                                        margin-top: 20px !important;
+                                                    }
+                                                    
+                                                    .results {
+                                                        max-height: 452px;
+                                                        overflow-y: scroll;
+                                                        margin-left: 1px;
+                                                        margin-top: 2px;
+                                                    }
+                                                    
+                                                    .title .icon {
+                                                        margin-left: 15px;
+                                                    }
+                                                    
+                                                    .hero {
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .forms {
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                    }
+                                                    
+                                                    .dropdown-item {
+                                                        display: flex;
+                                                        /*height: 110px;*/
+                                                    }
+                                                    
+                                                    .dropdown-item img {
+                                                        /*height: 100px;
+                                            width: 75px;
+                                            min-height: 100px;
+                                            min-width: 75px;*/
+                                                        height: 145px;
+                                                        width: 110px;
+                                                        min-height: 145px;
+                                                        min-width: 110px;
+                                                        margin-right: 10px;
+                                                        border-radius: 2px;
+                                                    }
+                                                    /*
+CUSTOM - ADDED SCRIPT 
+*/
+                                                    
+                                                    html {
+                                                        background-image: linear-gradient(141deg, #425cf0 0%, #47c4f5 71%, #1ea1a3 100%);
+                                                        padding: 7px 10px 7px 10px;
+                                                        width: auto;
+                                                        overflow: scroll;
+                                                        overflow-x: hidden;
+                                                    }
+                                                    
+                                                     ::-webkit-scrollbar {
+                                                        width: 0;
+                                                        /* Remove scrollbar space */
+                                                        background: transparent;
+                                                        /* Optional: just make scrollbar invisible */
+                                                    }
+                                                    /* Optional: show position indicator in red */
+                                                    
+                                                    #summary {
+                                                        width: auto;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    label {
+                                                        color: white
+                                                    }
+                                                    
+                                                    .dropdown-content {
+                                                        /*width: 478px;*/
+                                                        background-color: black;
+                                                    }
+                                                    
+                                                    .dropdown-menu {
+                                                        width: 100%;
+                                                        padding-bottom: 7px;
+                                                    }
+                                                    
+                                                    a.dropdown-item {
+                                                        padding: 0.375rem 0.6rem;
+                                                        white-space: unset;
+                                                        color: white;
+                                                        background-color: black;
+                                                    }
+                                                    
+                                                    .media-content {
+                                                        overflow-x: unset;
+                                                        width: 200px;
+                                                    }
+                                                    
+                                                    .content {
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        align-items: right;
+                                                    }
+                                                    
+                                                    h4 {
+                                                        color: white;
+                                                        /*white-space: nowrap;*/
+                                                        font-size: 12px;
+                                                        font: bold;
+                                                        margin-bottom: 0px;
+                                                        font-weight: 450;
+                                                    }
+                                                    
+                                                    .content h4 {
+                                                        color: white;
+                                                        white-space: nowrap;
+                                                        font-size: 12px;
+                                                        font-weight: 300;
+                                                        margin-bottom: 6px;
+                                                    }
+                                                    
+                                                    .content h1 {
+                                                        white-space: nowrap;
+                                                        font-size: 4vw;
+                                                        margin-bottom: 0px;
+                                                        padding-left: 0px;
+                                                        margin-left: 1px;
+                                                        line-height: 1.5;
+                                                        font-weight: 400;
+                                                    }
+                                                    
+                                                    .media-content p {
+                                                        font-size: small;
+                                                        padding-bottom: 10px;
+                                                        padding-top: 5px;
+                                                        font-weight: 300;
+                                                    }
+                                                    
+                                                    .content h1,
+                                                    .content h4,
+                                                    .media-content p {
+                                                        color: white;
+                                                    }
+                                                    
+                                                    article.media {
+                                                        min-width: 515px;
+                                                        background-color: black;
+                                                        border-radius: 4px;
+                                                        padding: 7px 10px 7px 10px;
+                                                    }
+                                                    
+                                                    .pill {
+                                                        /*  background-color: #ddd;*/
+                                                        background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);
+                                                        border: none;
+                                                        color: black;
+                                                        padding: 10px 20px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 16px;
+                                                        width: 60px;
+                                                    }
+                                                    /*
+    .seasons {
+        position: relative;
+        bottom: 0px;
+    }*/
+                                                    
+                                                    .pill-eps {
+                                                        background-image: linear-gradient(141deg, #42f0ca 0%, #47f5ec 71%, #359bee 100%);
+                                                        border: none;
+                                                        color: black;
+                                                        padding: 10px 20px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 16px;
+                                                        width: 60px;
+                                                        margin-bottom: 5px;
+                                                    }
+                                                    /* .episodes {
+        position: absolute;
+        bottom: 32px;
+    }*/
+                                                    
+                                                    .pill-nxtszn,
+                                                    .pill-prevszn {
+                                                        background-image: url('../images/fwdIconWhite.png');
+                                                        background-size: 22px 22px;
+                                                        height: 22px;
+                                                        width: 22px;
+                                                        background-color: black;
+                                                        border: none;
+                                                        padding: 0px 0px 0px 0px;
+                                                        color: white;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 4px;
+                                                        font-weight: 700;
+                                                        margin: 0px 0px 0px 0px;
+                                                        padding-bottom: 8px;
+                                                        padding-right: 13px;
+                                                        margin-top: 7px;
+                                                        position: absolute;
+                                                        left: 320px;
+                                                        /*
+
+                                            padding-bottom: 8px;
+                                            padding-right: 13px;
+                                            margin-top: 7px;
+                                            position: absolute;
+                                            right: 12px;
+        background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);
+        border: none;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 16px;
+        width: auto;
+        margin-bottom: 10px;*/
+                                                    }
+                                                    /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;*/
+                                                    
+                                                    .dropdown {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    *::placeholder {
+                                                        /* modern browser */
+                                                        color: white;
+                                                    }
+                                                    
+                                                    #autocomplete {
+                                                        width: 700px;
+                                                    }
+                                                    
+                                                    .input {
+                                                        color: white;
+                                                        background-color: black;
+                                                        width: 100%;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                    
+                                                    #logoHeader {
+                                                        height: 32px;
+                                                        display: inline-flex;
+                                                        color: white;
+                                                        padding: 0px 0px 0px 0px;
+                                                        margin: 0px 0px 0px 0px;
+                                                        margin-left: 36.0%;
+                                                        font-size: 25px;
+                                                        font-weight: 700;
+                                                        vertical-align: center;
+                                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                                    }
+                                                    
+                                                    a.dropdown-item:focus,
+                                                    button.dropdown-item:focus {
+                                                        background-color: whitesmoke;
+                                                        color: #0a0a0a;
+                                                    }
+                                                    
+                                                    .content {
+                                                        display: flex;
+                                                    }
+                                                    
+                                                    .media .content:not(:last-child) {
+                                                        margin-bottom: 0px;
+                                                    }
+                                                    
+                                                    #currSzn {
+                                                        margin-top: 7.5px;
+                                                        margin-left: 10px;
+                                                        font-weight: 450;
+                                                    }
+                                                    
+                                                    .media-content p {
+                                                        overflow: hidden;
+                                                        text-overflow: hidden;
+                                                        display: -webkit-box;
+                                                        -webkit-line-clamp: 3;
+                                                        padding-bottom: 4px;
+                                                        /* number of lines to show */
+                                                        -webkit-box-orient: vertical;
+                                                    }
+                                                    
+                                                    .pill-back {
+                                                        /*background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);*/
+                                                        background-image: url('../images/backIcon6.png');
+                                                        background-size: 26px 26px;
+                                                        height: 26px;
+                                                        width: 26px;
+                                                        background-color: white;
+                                                        border: none;
+                                                        color: white;
+                                                        padding: 0px 0px 0px 0px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 4px;
+                                                        font-weight: 700;
+                                                        margin: 0px 0px 0px 0px;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    
+                                                    .content h1:not(:first-child) {
+                                                        margin-top: 0em;
+                                                    }
+                                                    
+                                                    article.seasons {
+                                                        font-size: 100%;
+                                                    }
+                                                    
+                                                    body {
+                                                        font-size: 75%;
+                                                    }
+                                                    
+                                                    .dropdown-item .description {
+                                                        font-size: 4vw;
+                                                        margin-bottom: 6px;
+                                                        padding-left: 0px;
+                                                        line-height: 1.25;
+                                                    }
+                                                    
+                                                    #appName {
+                                                        font-size: 30px;
+                                                        font-weight: 200;
+                                                        line-height: 1.125;
+                                                        margin-top: 0px;
+                                                        padding-left: 7px;
+                                                        color: white;
+                                                        /* background: rgb(63, 94, 251);
+                                            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+                                           */
+                                                    }
+                                                    
+                                                    #logoSummaryTV {
+                                                        height: 32px;
+                                                        display: inline-flex;
+                                                        color: white;
+                                                        padding: 0px 0px 0px 0px;
+                                                        margin: 0px 0px 0px 0px;
+                                                        margin-left: 25%;
+                                                        margin-top: -1px;
+                                                        font-size: 25px;
+                                                        font-weight: bolder;
+                                                        vertical-align: center;
+                                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                                    }
+                                                    
+                                                    #logoSummaryTVSzn {
+                                                        height: 32px;
+                                                        display: inline-flex;
+                                                        color: white;
+                                                        padding: 0px 0px 0px 0px;
+                                                        margin: 0px 0px 0px 0px;
+                                                        margin-left: 25%;
+                                                        margin-top: -1px;
+                                                        font-size: 25px;
+                                                        font-weight: 700;
+                                                        vertical-align: center;
+                                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                                    }
+                                                    
+                                                    #logoSummaryMovie {
+                                                        height: 32px;
+                                                        display: inline-flex;
+                                                        color: white;
+                                                        padding: 0px 0px 0px 0px;
+                                                        margin: 0px 0px 0px 0px;
+                                                        margin-left: 25%;
+                                                        margin-top: -1px;
+                                                        font-size: 25px;
+                                                        font-weight: 600;
+                                                        vertical-align: center;
+                                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                                    }
+                                                    
+                                                    .pill-nxtep,
+                                                    .pill-prevep {
+                                                        background-image: url(../images/fwdIconWhite.png);
+                                                        background-size: 22px 22px;
+                                                        height: 22px;
+                                                        width: 22px;
+                                                        background-color: black;
+                                                        border: none;
+                                                        padding: 0px 0px 0px 0px;
+                                                        color: white;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 4px;
+                                                        font-weight: 700;
+                                                        margin: 0px 0px 0px 0px;
+                                                        padding-bottom: 8px;
+                                                        padding-right: 13px;
+                                                        margin-top: -35px;
+                                                        position: absolute;
+                                                        left: 320px;
+                                                    }
+                                                    
+                                                    #suggestDescription {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    #suggestDescription h1 {
+                                                        white-space: normal;
+                                                        line-height: 1.125;
+                                                        font-weight: 300;
+                                                        font-size: 4.5vw;
+                                                    }
+                                                    
+                                                    a.dropdown-item:hover * {
+                                                        color: black;
+                                                    }
+                                                    
+                                                    a.dropdown-item:focus * {
+                                                        color: black;
+                                                    }
+                                                    
+                                                    #rating img {
+                                                        min-height: 40px;
+                                                        min-width: 40px;
+                                                        height: 40px;
+                                                        width: 40px;
+                                                        position: absolute;
+                                                        right: -6px;
+                                                        top: 0px;
+                                                    }
+                                                    /*
+                                         #rating img {
+                                            height: 20px;
+                                            width: 20px;
+                                            margin-top: -5px;
+                                            padding-left: 3px;
+                                        }
+                                        */
+                                                    
+                                                    #rating h4 {
+                                                        padding-top: 14px;
+                                                        margin-left: -10px;
+                                                        position: absolute;
+                                                        right: 15px;
+                                                        top: 2px;
+                                                        font-size: 12px;
+                                                        font-weight: 300;
+                                                        color: black;
+                                                    }
+                                                    
+                                                    #rating {
+                                                        margin-top: -15px;
+                                                        display: flex;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    #suggSubhead {
+                                                        margin-top: 2px;
+                                                        font-size: 3vw;
+                                                    }
+                                                    
+                                                    #inpSugg::placeholder {
+                                                        color: rgba(255, 255, 255, 0.589);
+                                                        font-weight: 300;
+                                                    }
+                                                    
+                                                    #tvTitle {
+                                                        margin-left: -1px;
+                                                        line-height: 1.125;
+                                                        white-space: normal;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    #movieTitle {
+                                                        margin-bottom: 2px;
+                                                        margin-left: -1px;
+                                                        line-height: 1.125;
+                                                        white-space: normal;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    #tvTitleSumm {
+                                                        margin-bottom: 2px;
+                                                        margin-left: -1px;
+                                                        line-height: 1.125;
+                                                        white-space: normal;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    #description {
+                                                        margin-top: -5px;
+                                                    }
+                                                    
+                                                    .checked {
+                                                        color: orange;
+                                                    }
+                                                    
+                                                    #watchNow {
+                                                        margin-top: 5px;
+                                                        margin-bottom: 5px;
+                                                        width: auto;
+                                                    }
+                                                    
+                                                    #popMoviesArticle {
+                                                        min-width: 200px;
+                                                        margin-top: 10px;
+                                                        margin-left: 1px;
+                                                    }
+                                                    
+                                                    div.scrollmenu {
+                                                        overflow: overlay;
+                                                        white-space: nowrap;
+                                                    }
+                                                    
+                                                    div.scrollmenu a {
+                                                        display: inline-grid;
+                                                        color: white;
+                                                        padding: 1px;
+                                                        margin-right: 10px;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    div.scrollmenu a:hover {
+                                                        background-color: #777;
+                                                    }
+                                                    
+                                                    div.scrollmenu img {
+                                                        display: inline-flex;
+                                                        height: 170px;
+                                                        border-radius: 2px
+                                                    }
+                                                    
+                                                    article.popular h1 {
+                                                        white-space: normal;
+                                                        line-height: 1.125;
+                                                        font-weight: 200;
+                                                        font-size: 4.5vw;
+                                                        color: white;
+                                                        padding-bottom: 8px;
+                                                    }
+                                                    
+                                                    div.scrollmenu img:hover {
+                                                        background-color: #777;
+                                                    }
+                                                    
+                                                    a.scrollmenu-item {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    a.scrollmenu-item p {
+                                                        max-width: 113px;
+                                                        white-space: normal;
+                                                        display: -webkit-box;
+                                                        -webkit-line-clamp: 2;
+                                                        -webkit-box-orient: vertical;
+                                                    }
+                                                    
+                                                    article.popular {
+                                                        /*width: 478px;
+                                                    margin-left: 1px;
+                                                    */
+                                                        margin-top: 6px;
+                                                        min-width: unset;
+                                                        background-color: black;
+                                                        border-radius: 4px;
+                                                        padding: 7px 10px 7px 10px;
+                                                        /* width: 200px; 
+                                            display: block;*/
+                                                    }
+                                                    
+                                                    .pill-watchType {
+                                                        /* background-color: #ddd; */
+                                                        background-image: linear-gradient( 141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);
+                                                        border: none;
+                                                        color: black;
+                                                        padding: 9px 19px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        display: inline-block;
+                                                        cursor: pointer;
+                                                        border-radius: 16px;
+                                                        width: auto;
+                                                    }
+                                                    
+                                                    .NavBar {
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        display: flex;
+                                                        white-space: nowrap
+                                                    }
+                                                    
+                                                    .NavBar,
+                                                    .NavBar__item {
+                                                        color: var(--global-nav-item-text)
+                                                    }
+                                                    
+                                                    .NavBar__item {
+                                                        font-size: 12px;
+                                                        line-height: 12px;
+                                                        letter-spacing: 1.25px;
+                                                        font-weight: 600;
+                                                        padding: 12px 16px;
+                                                        text-transform: uppercase;
+                                                        text-decoration: none;
+                                                        cursor: pointer;
+                                                        transition-timing-function: ease;
+                                                        transition-duration: .3s;
+                                                        transition-property: margin, padding, font-size, background-color;
+                                                        list-style: none;
+                                                        border-radius: 4px
+                                                    }
+                                                    
+                                                    @media (min-width:1280px) {
+                                                        .NavBar__item {
+                                                            font-size: 14px;
+                                                            line-height: 14px;
+                                                            letter-spacing: 1.5px
+                                                        }
+                                                    }
+                                                    
+                                                    .NavBar__item>a {
+                                                        color: inherit
+                                                    }
+                                                    
+                                                    .NavBar__item:active,
+                                                    .NavBar__item:focus,
+                                                    .NavBar__item:hover {
+                                                        background-color: var(--global-nav-item-background--hover)
+                                                    }
+                                                    
+                                                    .NavBar__item--selected {
+                                                        background-color: var(--global-nav-item-background)
+                                                    }
+                                                    
+                                                    .NavBar__item:not(:last-of-type) {
+                                                        margin-right: 8px
+                                                    }
+                                                    
+                                                    @media (min-width:1024px) {
+                                                        .NavBar__item:not(:last-of-type) {
+                                                            margin-right: 16px
+                                                        }
+                                                    }
+                                                    
+                                                    .typeSuggestButt {
+                                                        background-color: black;
+                                                        padding: 1px 2px 1px 2px;
+                                                        color: white;
+                                                        --white: #fff;
+                                                        --white--97: hsla(0, 0%, 100%, 0.97);
+                                                        --white--10: hsla(0, 0%, 100%, 0.1);
+                                                        --white--20: hsla(0, 0%, 100%, 0.2);
+                                                        --white--30: hsla(0, 0%, 100%, 0.3);
+                                                        --white--60: hsla(0, 0%, 100%, 0.6);
+                                                        --white--70: hsla(0, 0%, 100%, 0.7);
+                                                        --white--80: hsla(0, 0%, 100%, 0.8);
+                                                        --black: #000;
+                                                        --black--00: transparent;
+                                                        --black--10: rgba(0, 0, 0, 0.1);
+                                                        --black--20: rgba(0, 0, 0, 0.2);
+                                                        --black--40: rgba(0, 0, 0, 0.4);
+                                                        --black--50: rgba(0, 0, 0, 0.5);
+                                                        --black--60: rgba(0, 0, 0, 0.6);
+                                                        --black--80: rgba(0, 0, 0, 0.8);
+                                                        --black--90: rgba(0, 0, 0, 0.9);
+                                                        --gray-1: #292c33;
+                                                        --gray-1--00: rgba(41, 44, 51, 0);
+                                                        --gray-1--35: rgba(41, 44, 51, 0.35);
+                                                        --gray-1--90: rgba(41, 44, 51, 0.9);
+                                                        --gray-2: #6b7790;
+                                                        --gray-2--25: rgba(107, 119, 144, 0.25);
+                                                        --gray-4: #b8becc;
+                                                        --gray-5: #dcdfe6;
+                                                        --gray-5--70: rgba(220, 223, 230, 0.7);
+                                                        --gray-5--30: rgba(220, 223, 230, 0.3);
+                                                        --gray-6: #ebedf2;
+                                                        --gray-6--10: rgba(235, 237, 242, 0.1);
+                                                        --gray-6--50: rgba(235, 237, 242, 0.5);
+                                                        --gray-7: #f7f8fa;
+                                                        --gray-8: #1d2025;
+                                                        --gray-9: #5e6573;
+                                                        --red: #de1b4b;
+                                                        --blue: #176ee1;
+                                                        --nm-faux-black: #040405;
+                                                        --nm-gray-1: #121417;
+                                                        --nm-gray-2: #1e2126;
+                                                        --nm-gray-3: #24272e;
+                                                        --nm-gray-4: #2e3138;
+                                                        --nm-gray-5: #909296;
+                                                        --cv-gray-1: #15171a;
+                                                        --cv-gray-2: #212329;
+                                                        --cv-gray-3: #31353d;
+                                                        --cv-gray-4: #424752;
+                                                        --cv-gray-5: #525966;
+                                                        --cv-blue: #3c88eb;
+                                                        --cv-green: #36ca94;
+                                                        --cv-yellow: #f2de3c;
+                                                        --cv-red: #ec003f;
+                                                        --cv-emoji-picker: var(--white);
+                                                        --background--primary: var(--white);
+                                                        --background--secondary: var(--gray-6);
+                                                        --background--nav: var(--white--97);
+                                                        --background--nav-dropdown: var(--white--97);
+                                                        --background--details-dropdown: var(--white);
+                                                        --background--details-dropdown-selected: var(--gray-7);
+                                                        --background--icon: var(--white);
+                                                        --background--generic-tile: var(--white);
+                                                        --background--dvr-tile: var(--gray-6);
+                                                        --text--primary: var(--gray-1);
+                                                        --text--secondary: var(--gray-2);
+                                                        --text--alternate: var(--gray-2);
+                                                        --accent--light: var(--gray-6);
+                                                        --accent--dark: var(--gray-6);
+                                                        --accent--nav: var(--gray-6--50);
+                                                        --accent--nav-dark: var(--black);
+                                                        --button--primary: var(--nm-faux-black);
+                                                        --button-text--primary: var(--white);
+                                                        --button--light: var(--gray-4);
+                                                        --button--recording: #fc4a53;
+                                                        --shadow--light: var(--gray-1--35);
+                                                        --shadow--dark: var(--gray-2--25);
+                                                        --backdrop--modal: rgba(41, 44, 51, 0.9);
+                                                        --status-bar: var(--gray-5--70);
+                                                        --status-bar--details: var(--gray-5--30);
+                                                        --progress-bar-gray: #868d9b;
+                                                        --green: #36ca94;
+                                                        --green-30: rgba(48, 229, 135, 0.3);
+                                                        --yellow: #f2bc3c;
+                                                        --live-guide-border: var(--gray-6);
+                                                        --live-guide-cell: var(--white);
+                                                        --live-guide-cell--gray: var(--gray-7);
+                                                        --live-guide-cell--hover: var(--gray-6);
+                                                        --live-guide-channel-logo: var(--gray-1);
+                                                        --live-guide-channel-logo--hover: var(--gray-1);
+                                                        --live-guide-text: rgba(41, 44, 51, 0.7);
+                                                        --live-guide-text--hover: var(--gray-1);
+                                                        --live-guide-icon: var(--gray-1);
+                                                        --live-guide-accent: var(--black--10);
+                                                        --live-guide-cell--gray-transparent: rgba(247, 248, 250, 0);
+                                                        --live-guide-cell--hover-transparent: rgba(235, 237, 242, 0);
+                                                        --context-menu-background: var(--white);
+                                                        --context-menu-icon-border: rgba(4, 4, 5, 0.2);
+                                                        --context-menu-item-border: #dde0e6;
+                                                        --context-menu-item-hover: #f0f1f5;
+                                                        --context-menu-shadow: rgba(94, 101, 115, 0.2);
+                                                        --context-menu-text: var(--nm-faux-black);
+                                                        --context-menu-primary-action: var(--solid-1);
+                                                        --transparent: hsla(0, 0%, 100%, 0);
+                                                        --solid-white: #fff;
+                                                        --solid-black: #040405;
+                                                        --solid-1: #f7f7f9;
+                                                        --solid-2: #f0f1f5;
+                                                        --solid-3: #dde0e6;
+                                                        --solid-4: #b9bfcb;
+                                                        --solid-5: #636e85;
+                                                        --solid-6: #272c35;
+                                                        --nm-solid-1: #15171a;
+                                                        --nm-solid-2: #212329;
+                                                        --nm-solid-3: #31353d;
+                                                        --nm-solid-4: #424752;
+                                                        --nm-solid-5: #525966;
+                                                        --nm-solid-6: #6f788a;
+                                                        --black-1: rgba(39, 44, 53, 0.9);
+                                                        --black-2: rgba(39, 44, 53, 0.8);
+                                                        --black-3: rgba(39, 44, 53, 0.7);
+                                                        --black-4: rgba(39, 44, 53, 0.6);
+                                                        --black-5: rgba(39, 44, 53, 0.5);
+                                                        --black-6: rgba(39, 44, 53, 0.4);
+                                                        --black-7: rgba(39, 44, 53, 0.3);
+                                                        --black-8: rgba(39, 44, 53, 0.2);
+                                                        --black-9: rgba(39, 44, 53, 0.1);
+                                                        --white-1: hsla(0, 0%, 100%, 0.9);
+                                                        --white-2: hsla(0, 0%, 100%, 0.8);
+                                                        --white-3: hsla(0, 0%, 100%, 0.7);
+                                                        --white-4: hsla(0, 0%, 100%, 0.6);
+                                                        --white-5: hsla(0, 0%, 100%, 0.5);
+                                                        --white-6: hsla(0, 0%, 100%, 0.4);
+                                                        --white-7: hsla(0, 0%, 100%, 0.3);
+                                                        --white-8: hsla(0, 0%, 100%, 0.2);
+                                                        --white-9: hsla(0, 0%, 100%, 0.1);
+                                                        --global-nav-background: var(--solid-white);
+                                                        --global-nav-item-text: var(--solid-6);
+                                                        --global-nav-border: var(--solid-2);
+                                                        --global-nav-logo: var(--solid-6);
+                                                        --global-nav-item-background: var(--solid-2);
+                                                        --global-nav-item-background--hover: var(--solid-3);
+                                                        --global-nav-menu-item-text: var(--solid-6);
+                                                        --global-nav-menu-background: var(--solid-2);
+                                                        --global-nav-menu-background--open: var(--solid-3);
+                                                        --global-nav-menu-list-background: var(--solid-white);
+                                                        --global-nav-menu-list-selected-item: var(--solid-2);
+                                                        --global-nav-menu-list-selected-item--hover: var(--solid-3);
+                                                        --global-nav-logo--transparent: var(--solid-white);
+                                                        --global-nav-item-background--transparent: var(--white-7);
+                                                        --global-nav-item-text--transparent: var(--solid-white);
+                                                        --global-nav-item-background-hover--transparent: var(--white-6);
+                                                        --global-nav-menu-background--transparent: var(--white-8);
+                                                        --global-nav-menu-background-open--transparent: var(--white-7);
+                                                        --global-nav-menu-list-background--transparent: var(--solid-white);
+                                                        --global-nav-menu-list-selected-item--transparent: var(--solid-2);
+                                                        --global-nav-border--transparent: var(--white-7);
+                                                        --simple-modal-nav-height: 64px;
+                                                        --simple-modal-nav-top: 0;
+                                                        --simple-modal-nav-top-md: 24px;
+                                                        --simple-modal-nav-zindex: 900;
+                                                        --notification-banner-background: var(--white);
+                                                        --notification-banner-text: var(--solid-5);
+                                                        --notification-banner-shadow: var(--black--40);
+                                                        --geo-prompt-modal-overlay: var(--solid-1);
+                                                        --geo-prompt-modal-background: var(--solid-white);
+                                                        --geo-prompt-modal-button: var(--solid-black);
+                                                        --geo-prompt-modal-button-text: var(--solid-white);
+                                                        --badge-border-color: rgba(0, 0, 0, 0.4);
+                                                        --my-stuff-footer-background: var(--solid-6);
+                                                        --my-stuff-dvr-modal-background: var(--solid-white);
+                                                        --my-stuff-dvr-masthead-background: var(--solid-6);
+                                                        --my-stuff-dvr-group-children-background: var(--solid-1);
+                                                        --my-stuff-null-state-text-color: var(--solid-black);
+                                                        --code-verification-input-text: var(--nm-faux-black);
+                                                        --code-verification-input-background: var(--white);
+                                                        --code-verification-input-border: var(--solid-4);
+                                                        --code-verification-input-focus: var(--nm-faux-black);
+                                                        --profile-protection-header-border: var(--gray-5);
+                                                        --status-success: #2dbd9d;
+                                                        --status-error: #cc000d
+                                                    }
+                                                    
+                                                    #tryDiff1 {
+                                                        background-image: linear-gradient( 136deg, #363636dc 10%, #c1c1c1 100%);
+                                                        background: inherit;
+                                                        color: #ffffff;
+                                                        font-size: 17px;
+                                                        margin-top: 2px;
+                                                        width: 130px;
+                                                        /* display: none; */
+                                                        font-family: Montserrat, Arial;
+                                                        font-weight: 300;
+                                                        -webkit-font-smoothing: antialiased;
+                                                        display: inline-block;
+                                                        font-style: normal;
+                                                        font-variant: normal;
+                                                        position: fixed;
+                                                        z-index: 1;
+                                                        padding-top: 7px;
+                                                        padding-bottom: 8px;
+                                                    }
+                                                    
+                                                    .dropbtn {
+                                                        background-color: #4CAF50;
+                                                        color: white;
+                                                        padding: 16px;
+                                                        font-size: 16px;
+                                                        border: none;
+                                                        cursor: pointer;
+                                                    }
+                                                    /* The container <div> - needed to position the dropdown content */
+                                                    
+                                                    .dropdown-server {
+                                                        position: relative;
+                                                        display: inline-block;
+                                                    }
+                                                    /* Dropdown Content (Hidden by Default) */
+                                                    
+                                                    .dropdown-server-content {
+                                                        display: none;
+                                                        position: absolute;
+                                                        background-color: #f9f9f9;
+                                                        min-width: 160px;
+                                                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                                                        z-index: 1;
+                                                    }
+                                                    /* Links inside the dropdown */
+                                                    
+                                                    .dropdown-server-content a {
+                                                        color: black;
+                                                        padding: 12px 16px;
+                                                        text-decoration: none;
+                                                        display: block;
+                                                    }
+                                                    /* Change color of dropdown links on hover */
+                                                    
+                                                    .dropdown-server-content a:hover {
+                                                        background-color: #f1f1f1
+                                                    }
+                                                    /* Show the dropdown menu on hover */
+                                                    
+                                                    .dropdown:hover .dropdown-content {
+                                                        display: block;
+                                                    }
+                                                    /* Change the background color of the dropdown button when the dropdown content is shown */
+                                                    
+                                                    .dropdown-server:hover .dropbtn {
+                                                        background-color: #3e8e41;
+                                                    }
+                                                    
+                                                    #vidWrapper * {
+                                                        color: transparent !important;
+                                                        font-display: var(--transparent);
+                                                    }
+                                                    
+                                                    #sportsTitle {
+                                                        margin-top: 0px;
+                                                        margin-left: 7px;
+                                                        font-family: Montserrat, Arial;
+                                                        font-weight: 300;
+                                                        -webkit-font-smoothing: antialiased;
+                                                        font-style: normal;
+                                                        font-variant: normal;
+                                                    }
+                                                    
+                                                    #sportsHeader {
+                                                        justify-content: unset;
+                                                        width: 200px;
+                                                    }
+                                                    
+                                                    .pill-servers {
+                                                        background: black;
+                                                        color: #ffffff;
+                                                        border: none;
+                                                        padding: 2px 4px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        cursor: pointer;
+                                                        border-radius: 16px;
+                                                        font-size: 16px;
+                                                        margin-top: 2px;
+                                                        margin-left: 5px;
+                                                        width: auto;
+                                                        font-family: Montserrat, Arial;
+                                                        font-weight: 300;
+                                                        -webkit-font-smoothing: antialiased;
+                                                        display: inline-block;
+                                                        font-style: normal;
+                                                        font-variant: normal;
+                                                        position: fixed;
+                                                        z-index: 1;
+                                                        padding-top: 7px;
+                                                        padding-bottom: 7px;
+                                                    }
+                                                    
+                                                    #dropdownarrow {
+                                                        justify-self: right;
+                                                        padding-left: 5px;
+                                                    }
+                                                    
+                                                    #nflGamesLeftButt {
+                                                        transform: rotate(180deg);
+                                                    }
+                                                    
+                                                    article.nflGame {
+                                                        /*text-align: center;*/
+                                                        min-width: 100px;
+                                                        font-size: 15px;
+                                                        width: 243px;
+                                                        max-height: 110px;
+                                                        background-image: linear-gradient(141deg, #59595a 0%, #919292 71%, #a8a6a6 100%);
+                                                        font-family: Montserrat, Arial;
+                                                        font-weight: 300;
+                                                        -webkit-font-smoothing: antialiased;
+                                                        color: white;
+                                                        margin-top: -5px;
+                                                    }
+                                                    
+                                                    .nflGameContainer {
+                                                        display: grid;
+                                                        grid-template-columns: auto auto;
+                                                        padding: 5px 0px 5px 0px;
+                                                        /* min-height: 100px; */
+                                                        /* height: auto; */
+                                                        max-height: 160px;
+                                                        overflow: scroll;
+                                                        overflow-x: hidden;
+                                                        margin-left: -5px;
+                                                    }
+                                                    
+                                                    #sportsButton1,
+                                                    #sportsButton2 {
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    
+                                                    #firstTeamAbbr,
+                                                    #secondTeamAbbr {
+                                                        font-size: 18px;
+                                                        justify-content: unset;
+                                                        margin-left: 10px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    #firstTeamName,
+                                                    #secondTeamName {
+                                                        font-size: 12px;
+                                                        justify-content: unset;
+                                                        margin-left: 11px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    img.nflLogo {
+                                                        height: 50px;
+                                                        width: 40px;
+                                                    }
+                                                    
+                                                    h1.nflGameScore0 {
+                                                        position: sticky;
+                                                        left: 220px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    h1.nflGameScore1 {
+                                                        position: sticky;
+                                                        left: 480px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    #firstTeamScore,
+                                                    #secondTeamScore {
+                                                        color: white;
+                                                    }
+                                                    
+                                                    #firstTeamScoreWin,
+                                                    #secondTeamScoreWin {
+                                                        color: gold;
+                                                    }
+                                                    
+                                                    .numberCircle {
+                                                        position: sticky;
+                                                        left: 500px;
+                                                        margin-top: -5px;
+                                                        border-radius: 50%;
+                                                        width: 36px;
+                                                        height: 36px;
+                                                        padding: 8px;
+                                                        background: cyan;
+                                                        border: 2px solid #666;
+                                                        color: #666;
+                                                        text-align: center;
+                                                        font: 32px Arial, sans-serif;
+                                                    }
+                                                    /*#currSportButts {
+                                                        margin-left: 260px;
+                                                    }*/
+                                                    /* font-size: 15px;
+                                        }
+                                        /*font-family: 'Montserrat', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-family: system-ui, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        */

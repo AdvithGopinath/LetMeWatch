@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html style="background-image:none;background-color: black;">
+
+<head>
+    <!--script src="js/adstop.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/all.css"-->
+    <script src="./js/third-party/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/embed.css" />
+    <link rel="stylesheet" href="css/bulma.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/viewPage.css">
+</head>
+
+<body>
+    <!--button class="pill-servers" id="serversButton" style="white-space:nowrap; position:fixed;z-index: 2;">TRAILERS.TO &nbsp;&nbsp;&#x25BE;</button-->
+    <button class="pill-servers" id="serversButton" style="white-space: nowrap;position: absolute;z-index: 2;top: 12px;/* display: table-column; */">
+        2EMBED
+        <div id="dropdownarrow" style="position: absolute;top: 6px;left: 135px;">&#x25BE;</div>
+    </button>
+    <div id="serverOptions" style="display:none;">
+        <!--button class="pill-servers" id="vidSrcButton" style="position: fixed;z-index: 1;margin-top: 40px;">VIDSRC</button-->
+
+        <!--button class="pill-servers" id="vidCloudButton" style="position: fixed;z-index: 1;margin-top: 110px;">VIDCLOUD</button-->
+        <button class="pill-servers" id="dbgoButton" style="border-radius: 0px;padding-top: 14px;position: fixed;z-index: 10;margin-top: 34px;">DBOGO</button>
+        <button class="pill-servers" id="twoEmbButton" style="border-radius: 0px;padding-top: 15px;position: fixed;z-index: 10;margin-top: 68px;">2EMBED</button>
+        <button class="pill-servers" id="trailersToButton" style="/* border-radius: 0px; */border-top-left-radius: 0px;border-top-right-radius: 0px;padding-top: 14px;position: fixed;z-index: 10;margin-top: 104px;">TRAILERS.TO</button>
+        <button class="pill-servers" id="movies123Button" style="display:none;position: fixed;z-index: 1;margin-top: 145px;">123MOVIE</button>
+        <button class="pill-servers" id="oneMovieButton" style="display:none;position: fixed;z-index: 1;margin-top: 180px;">1MOVIETV</button>
+        <button class="pill-servers" id="firesonicButton" style="display:none;position: fixed;z-index: 1;margin-top: 215px;">FIRESONIC</button>
+
+    </div>
+    <!--div id="vidWrapper"-->
+    <iframe id="titleVideo" sandbox="allow-scripts" allow="autoplay" frameborder="0 " allowFullScreen="true " webkitallowfullscreen="true " mozallowfullscreen="true " style="position: fixed;
+    top: 2px;
+     left: 2px; 
+    /* bottom: 0px; */
+    /* right: 0; */
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; ">
+            Your browser doesn't support iframes
+        </iframe>
+    <!--/div-->
+    <script src="js/viewPage.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,590 @@
+.tutorial {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+figure.image {
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+
+figure .image img {
+    justify-content: right;
+    height: 190px;
+    border-radius: 3px;
+    /*max-width: 120px;*/
+}
+
+.notification {
+    margin-top: 20px !important;
+}
+
+.results {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.title .icon {
+    margin-left: 15px;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-item {
+    display: flex;
+    height: 110px;
+}
+
+.dropdown-item img {
+    height: 100px;
+    width: 75px;
+    min-height: 100px;
+    min-width: 75px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+
+/*
+CUSTOM - ADDED SCRIPT 
+*/
+
+html {
+    background-color: black;
+    /* background-image: linear-gradient(
+141deg, #425cf0 0%, #47c4f5 71%, #1ea1a3 100%); */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%
+}
+
+#summary {
+    width: auto;
+    height: auto;
+}
+
+label {
+    color: white
+}
+
+.dropdown-content {
+    width: 400px;
+    background-color: black;
+}
+
+.dropdown-menu {
+    padding-bottom: 7px;
+}
+
+a.dropdown-item {
+    white-space: unset;
+    color: white;
+    background-color: black;
+}
+
+.media-content {
+    overflow-x: unset;
+}
+
+.content {
+    display: block;
+    justify-content: space-between;
+    align-items: right;
+}
+
+h4 {
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font: bold;
+    margin-bottom: 0px;
+    font-weight: 450;
+}
+
+.content h4 {
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.content h1 {
+    white-space: nowrap;
+    font-size: 4vw;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 1px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.media-content p {
+    font-size: 29px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    font-weight: 200;
+    line-height: 1.35;
+    margin-left: 5%;
+}
+
+.content h1,
+.content h4,
+.media-content p {
+    color: white;
+}
+
+article.media {
+    display: block;
+    width: 98%;
+    /* height: 85%; */
+    /* background-color: black; */
+    border-radius: 4px;
+    padding: 3 10px 7px 10px;
+    margin-top: 0.7%;
+    background-image: linear-gradient( 141deg, #425cf0 0%, #47c4f5 71%, #1ea1a3 100%);
+}
+
+.pill {
+    /*  background-color: #ddd;*/
+    background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    width: auto;
+}
+
+
+/*
+.seasons {
+position: relative;
+bottom: 0px;
+}*/
+
+.pill-eps {
+    background-image: linear-gradient(141deg, #42f0ca 0%, #47f5ec 71%, #359bee 100%);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+
+/* .episodes {
+position: absolute;
+bottom: 32px;
+}*/
+
+.pill-nxtszn,
+.pill-prevszn {
+    background-image: url('../images/fwdIconWhite.png');
+    background-size: 22px 22px;
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border: none;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 8px;
+    padding-right: 13px;
+    margin-top: 7px;
+    position: absolute;
+    left: 310px;
+    /*
+
+    padding-bottom: 8px;
+    padding-right: 13px;
+    margin-top: 7px;
+    position: absolute;
+    right: 12px;
+background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);
+border: none;
+color: black;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+border-radius: 16px;
+width: auto;
+margin-bottom: 10px;*/
+}
+
+
+/*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;*/
+
+.dropdown {
+    display: block;
+}
+
+*::placeholder {
+    /* modern browser */
+    color: white;
+}
+
+#autocomplete {
+    width: 400px;
+}
+
+.input {
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#logoHeader {
+    height: 27px;
+    display: inline-flex;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-left: 28%;
+    font-size: 25px;
+    font-weight: 700;
+    vertical-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+a.dropdown-item:focus,
+button.dropdown-item:focus {
+    background-color: whitesmoke;
+    color: #0a0a0a;
+}
+
+.content {
+    display: flex;
+}
+
+.media .content:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+#currSzn {
+    margin-top: 10.5px;
+    font-weight: 450;
+}
+
+.media-content p {
+    overflow: hidden;
+    text-overflow: hidden;
+    display: block;
+    padding-bottom: 4px;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.pill-back {
+    /*background-image: linear-gradient(141deg, #ff7070e3 0%, #fb3e3edc 71%, #ff9d9d 100%);*/
+    background-image: url('../images/backIcon6.png');
+    background-size: 26px 26px;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+}
+
+.content h1:not(:first-child) {
+    margin-top: 0em;
+}
+
+article.seasons {
+    font-size: 100%;
+}
+
+body {
+    font-size: 75%;
+    padding-left: 26%;
+    padding-right: 24%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    height: 100%;
+}
+
+.dropdown-item .description {
+    font-size: 4vw;
+    margin-bottom: 6px;
+    padding-left: 0px;
+    line-height: 1.25;
+}
+
+#appName {
+    font-size: 8vw;
+    font-weight: 100;
+    line-height: 1.125;
+    padding-left: 20px;
+    margin-top: -1%;
+    vertical-align: bottom;
+    color: white;
+    /* background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+   */
+}
+
+#logoSummaryTV {
+    height: 8vw;
+    display: inline-flex;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 0%;
+    vertical-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+#logoSummaryTVSzn {
+    height: 27px;
+    display: inline-flex;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-left: 28%;
+    font-size: 25px;
+    font-weight: 700;
+    vertical-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+#logoSummaryMovie {
+    height: 27px;
+    display: inline-flex;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-left: 28%;
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.pill-nxtep,
+.pill-prevep {
+    background-image: url('../images/fwdIconWhite.png');
+    background-size: 22px 22px;
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border: none;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 8px;
+    padding-right: 13px;
+    margin-top: 7px;
+    position: absolute;
+    right: -10px;
+}
+
+#suggestDescription {
+    display: block;
+}
+
+#suggestDescription h1 {
+    white-space: normal;
+    line-height: 1.125;
+    font-weight: 300;
+    font-size: 4.5vw;
+}
+
+a.dropdown-item:hover * {
+    color: black;
+}
+
+a.dropdown-item:focus * {
+    color: black;
+}
+
+#rating img {
+    min-height: 40px;
+    min-width: 40px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: -6px;
+    top: 0px;
+}
+
+
+/*
+ #rating img {
+    height: 20px;
+    width: 20px;
+    margin-top: -5px;
+    padding-left: 3px;
+}
+*/
+
+#rating h4 {
+    padding-top: 14px;
+    margin-left: -10px;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+
+#rating {
+    margin-top: -15px;
+    display: flex;
+    float: right;
+}
+
+#suggSubhead {
+    margin-top: 2px;
+    font-size: 3vw;
+}
+
+#inpSugg::placeholder {
+    color: rgba(255, 255, 255, 0.589);
+    font-weight: 300;
+}
+
+#tvTitle {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 61px;
+    font-weight: 200;
+    white-space: normal;
+    line-height: 1.125;
+    color: white;
+    /* vertical-align: bottom; */
+    position: absolute;
+    bottom: 30px;
+    left: 23.1%;
+}
+
+#getStarted {
+    margin-left: 0px;
+    font-size: 33px;
+    font-weight: 200;
+    white-space: normal;
+    line-height: 1.125;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    color: white;
+}
+
+#gsArticle {
+    display: flex;
+    width: 99%;
+    height: auto;
+    margin-left: 0%;
+    padding-bottom: 0;
+    padding: 0.5% 1% 0% 1%;
+    background-image: linear-gradient( 317deg, #ffa500 0%, #ff0000c2 100%);
+}
+
+#description {
+    margin-top: -5px;
+}
+
+.checked {
+    color: orange;
+}
+
+#watchNow {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#logoArticle {
+    background-image: linear-gradient(141deg, #425cf0 0%, #47c4f5 71%, #1ea1a3 100%);
+    width: 75%;
+    height: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+#contentArticle {
+    width: 18.5%;
+    height: auto;
+    margin-left: 0%;
+    padding-bottom: 0;
+    padding: 0.5% 1% 0% 1%;
+    display: flex;
+}
+
+#contentDiv {
+    display: block;
+    margin-left: 10px;
+}
+
+#descriptionFt {
+    margin-top: -35px;
+    margin-left: 6px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#descriptionIns {
+    margin-top: -18px;
+    margin-left: 6px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#thanosBan {
+    max-height: 280px;
+}
+
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-family: system-ui, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+*/
