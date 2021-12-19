@@ -1,6 +1,6 @@
 {
     "name": "LetMeWatch",
-    "version": "1.84",
+    "version": "1.85",
     "description": "LetMeWatch: A seamless watching experience in a Chrome extension.",
     "manifest_version": 3,
     "permissions": [
