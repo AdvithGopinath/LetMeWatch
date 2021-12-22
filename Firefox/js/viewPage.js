@@ -29,14 +29,17 @@ serverButt.addEventListener('click', () => {
 });
 */
 vidSrcButt.addEventListener('click', () => {
+    titleVideo.style.display = "none";
+
     titleVideo.removeAttribute('sandbox');
     titleVideo.src = vidSrcUrl;
     titleVideo.contentWindow.location.href = vidSrcUrl;
-    serverButt.innerText = "VIDSRC";
+    serverButt.innerText = "VIDSRC ";
     titleVideo.style.left = "0px";
     titleVideo.style.top = "-50px";
     titleVideo.style.height = "105%";
 
+    titleVideo.style.display = "unset";
 
 
     // serverOptions.style.display = "none";
@@ -44,20 +47,25 @@ vidSrcButt.addEventListener('click', () => {
 
 dbgoButt.addEventListener('click', () => {
     //titleVideo.removeAttribute('sandbox');
+    titleVideo.style.display = "none";
+
     titleVideo.setAttribute('sandbox', "allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation allow-presentation");
-    titleVideo.style.top = "4px";
-    titleVideo.style.left = "0px";
+
 
 
     titleVideo.src = dbgoUrl;
     titleVideo.contentWindow.location.href = dbgoUrl;
-    serverButt.innerText = "DBOGO";
+    serverButt.innerText = "DBOGO ";
+    titleVideo.style.top = "4px";
+    titleVideo.style.left = "0px";
+    titleVideo.style.display = "unset";
+
 
     //serverOptions.style.display = "none";
 });
 
 trailersToButton.addEventListener('click', () => {
-
+    titleVideo.style.display = "none";
     //titleVideo.removeAttribute('sandbox');
     //titleVideo.setAttribute('sandbox', "allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation");
     titleVideo.setAttribute('sandbox', "allow-same-origin allow-scripts");
@@ -69,38 +77,50 @@ trailersToButton.addEventListener('click', () => {
             window.top.location.href = 'https://Trailers.to/video/test-user/imdb/tt7126948';
         }, 5000);
     }*/
-    titleVideo.style.top = "33px";
-    titleVideo.style.left = "0px";
+
     titleVideo.contentWindow.location.href = trailersToUrl; //"https://Trailers.to/video/test-user/imdb/tt7126948";
     //serverButt.innerHTML = `<button class="pill-servers" id="serversButton" style="position: fixed;z-index: 1;">DBGO &nbsp;&nbsp;&#x25BE;</button>`;
     //serverButt.innerText = "TRAILERS.TO";
     serverButt.innerHTML = `
         TRAILERS.TO
     `;
+    titleVideo.style.top = "33px";
+    titleVideo.style.left = "0px";
+    titleVideo.style.display = "unset";
+
     //serverButt.style.width = "175px";
     //serverOptions.style.display = "none";
 });
 
 twoEmbButt.addEventListener('click', () => {
+    titleVideo.style.display = "none";
+
     titleVideo.removeAttribute('sandbox');
-    titleVideo.style.top = "0px";
-    titleVideo.style.left = "0px";
+
     titleVideo.src = twoEmbUrl;
     titleVideo.contentWindow.location.href = twoEmbUrl;
 
     serverButt.innerHTML = `
         2EMBED
     `;
+    titleVideo.style.top = "-2px";
+    titleVideo.style.left = "0px";
+    titleVideo.style.display = "unset";
+
     //serverOptions.style.display = "none";
 });
 
 firesonicButton.addEventListener('click', () => {
+    titleVideo.style.display = "none";
+
     titleVideo.src = firesonicUrl;
     titleVideo.contentWindow.location.href = firesonicUrl;
-    serverButt.innerText = "FIRESONIC";
+    serverButt.innerText = "FIRESONIC ";
     titleVideo.style.top = "0px";
 
     titleVideo.style.left = "0px";
-    titleVideo.style.height = "-webkit-fill-available";
+    titleVideo.style.height = "100%";
+    titleVideo.style.display = "unset";
+
     // serverOptions.style.display = "none";
 });

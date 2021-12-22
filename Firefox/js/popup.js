@@ -480,6 +480,7 @@ const addEventListeners = (mediaType, mediaDetail) => {
             }, 1000);
             */
             chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
+            window.close();
             /*
                                     chrome.tabs.query({ active: true, currentWindow: true },
                                         function(tab) {
@@ -885,6 +886,7 @@ const onSeasonSelect = async(tvDetail, numSzn, summaryElement) => {
                 });
             }*/
             document.getElementById("tvSubhead").innerText += " (Watched)";
+            window.close();
 
         });
         currEpisodeButton.addEventListener("mouseover", function() {
@@ -928,7 +930,7 @@ chrome.storage.local.get('savedSummary', function(items) {
                 chrome.storage.local.set({ 'savedSummary': document.getElementById("summary").outerHTML });
                 chrome.storage.local.set({ 'vidUrl': vidUrl });
                 //chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
-                /*(async() => {
+                (async() => {
                     const tab = await chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
                     const tabId = tab.id;
                     if (!tab.url) await onTabUrlUpdated(tabId);
@@ -955,8 +957,9 @@ chrome.storage.local.get('savedSummary', function(items) {
                             (ok ? resolve : reject)();
                         }
                     });
-                }*/
+                }
             });
+            window.close();
         } else if (localStorage.getItem('lastWatchedType') === 'tv') {
             console.log("saved - tv");
 
@@ -1075,6 +1078,7 @@ chrome.storage.local.get('savedSummary', function(items) {
                         });
                     }*/
                     document.getElementById("tvSubhead").innerText += " (Watched)";
+                    window.close();
                 });
                 currEpisodeButton.addEventListener("mouseover", function() {
                     document.getElementById("tvSubhead").innerHTML = ``;
