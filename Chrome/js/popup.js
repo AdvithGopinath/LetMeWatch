@@ -442,26 +442,18 @@ const addEventListeners = (mediaType, mediaDetail) => {
         watchNowButton.addEventListener("click", function() {
             var currMoviePageSummary = $("#summary").clone(true);
             chrome.storage.local.set({ "savedPage": currMoviePageSummary });
-            let twoEmbUrl = "https://www.2embed.ru/embed/imdb/movie?id=" + mediaDetail.external_ids.imdb_id + "";
-            //let vidSrcUrl = "https://vidsrc.me/embed/" + mediaDetail.external_ids.imdb_id + "/";
-            //let vidCloudUrl = "https://vidclouds.us/" + mediaDetail.external_ids.imdb_id + ".html";
-            let dbgoUrl = "https://dbgo.fun/imdb.php?id=" + mediaDetail.external_ids.imdb_id + "";
-            let movies123Url = "https://api.123movie.cc/imdb.php?imdb=" + mediaDetail.external_ids.imdb_id + "&server=serverf4";
-            let firesonicUrl = "https://firesonic.sc/play_video.php?getvideo?key=UdK4VbZNuo02uapi&video_id=" + mediaDetail.external_ids.imdb_id + "";
-            let oneMoviesUrl = "https://s0.1movietv.com/playstream/" + mediaDetail.external_ids.imdb_id + "";
-            //let trailersToUrl = "https://Trailers.to/video/embed%20%20%20%20%20%20%20%20%20%20%20/imdb/" + mediaDetail.external_ids.imdb_id + "";
-            // let trailersToUrl = "https://Trailers.to/video/embed%20%20%20%20%20%20%20%20%20%20%20/imdb/" + mediaDetail.external_ids.imdb_id + "";
-            let trailersToUrl = "https://Trailers.to/player/embed/imdb/" + mediaDetail.external_ids.imdb_id + "";
-            //let trailersToUrl = "https://Trailers.to/video/embed%20%20%20%20%20%20%20%20%20%20%20/imdb/tt6264654" + mediaDetail.external_ids.imdb_id + "";
-            //localStorage.setItem('vidSrcUrl', vidSrcUrl);
-            // localStorage.setItem('vidCloudUrl', vidCloudUrl);
-            //chromtrailersToUrl;
-            localStorage.setItem('dbgoUrl', dbgoUrl);
-            localStorage.setItem('movies123Url', movies123Url);
-            localStorage.setItem('firesonicUrl', firesonicUrl);
-            localStorage.setItem('oneMoviesUrl', oneMoviesUrl);
 
+            let twoEmbUrl = "https://www.2embed.ru/embed/imdb/movie?id=" + mediaDetail.external_ids.imdb_id + "";
+            let vidSrcUrl = "https://v2.vidsrc.me/embed/" + mediaDetail.external_ids.imdb_id + "/";
+            let dbgoUrl = "https://dbgo.fun/imdb.php?id=" + mediaDetail.external_ids.imdb_id + "";
+            let firesonicUrl = "https://firesonic.sc/play_video.php?getvideo?key=UdK4VbZNuo02uapi&video_id=" + mediaDetail.external_ids.imdb_id + "";
+            let trailersToUrl = "https://Trailers.to/player/embed/imdb/" + mediaDetail.external_ids.imdb_id + "";
+            localStorage.setItem('vidSrcUrl', vidSrcUrl);
+            localStorage.setItem('dbgoUrl', dbgoUrl);
+            localStorage.setItem('firesonicUrl', firesonicUrl);
+            localStorage.setItem('trailersToUrl', trailersToUrl);
             localStorage.setItem('twoEmbUrl', twoEmbUrl);
+
             let vidTitle = mediaDetail.title + " - LetMeWatch";
             localStorage.setItem('vidTitle', vidTitle);
             chrome.storage.local.set({ 'savedSummary': document.getElementById("summary").outerHTML });
@@ -487,7 +479,6 @@ const addEventListeners = (mediaType, mediaDetail) => {
                 //titleVideo.src = titleVideo.contentWindow.location.href;
             }, 1000);
             */
-            localStorage.setItem('trailersToUrl', trailersToUrl);
 
             chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
             /*
@@ -842,22 +833,16 @@ const onSeasonSelect = async(tvDetail, numSzn, summaryElement) => {
                 //document.getElementById("tvSubhead").innerText += " (Watched)";
 
             let twoEmbUrl = "https://www.2embed.ru/embed/imdb/tv?id=" + tvDetail.external_ids.imdb_id + "&s=" + numSzn + "&e=" + i + "";
-            let vidSrcUrl = "https://vidsrc.me/embed/" + tvDetail.external_ids.imdb_id + "/" + numSzn + "-" + i + "/";
-            // let vidCloudUrl = "https://vidclouds.us/tv.php?imdb=" + tvDetail.external_ids.imdb_id + "&season=" + numSzn + "&episode=" + i + "";
+            let vidSrcUrl = "https://v2.vidsrc.me/embed/" + tvDetail.external_ids.imdb_id + "/" + numSzn + "-" + i + "/";
             let dbgoUrl = "https://dbgo.fun/imdbse.php?id=" + tvDetail.external_ids.imdb_id + "&s=" + numSzn + "&e=" + i;
-            let movies123Url = "https://api.123movie.cc/tmdb_api.php?se=" + numSzn + "&ep=" + i + "&tmdb=" + tmdbID + "&server_name=vcu";
-            let firesonicUrl = "N/A";
-            let oneMoviesUrl = "https://1movietv.com/playstream/" + tmdbID + "-" + numSzn + "-" + i + "";
-            // let trailersToUrl = "https://Trailers.to/video/embed%20%20%20%20%20%20%20%20%20%20%20/imdb/" + tvDetail.external_ids.imdb_id + "";
+            let firesonicUrl = "https://firesonic.sc/play_video.php?getvideo?key=UdK4VbZNuo02uapi&video_id=" + tvDetail.external_ids.imdb_id + "&s=" + numSzn + "&e=" + i;
             let trailersToUrl = "https://Trailers.to/player/embed/imdb/" + tvDetail.external_ids.imdb_id + "/S" + numSzn + "E" + i + "";
 
             localStorage.setItem('twoEmbUrl', twoEmbUrl);
-            //localStorage.setItem('vidSrcUrl', vidSrcUrl);
-            //localStorage.setItem('vidCloudUrl', vidCloudUrl);
+            localStorage.setItem('vidSrcUrl', vidSrcUrl);
             localStorage.setItem('dbgoUrl', dbgoUrl);
-            localStorage.setItem('movies123Url', movies123Url);
             localStorage.setItem('firesonicUrl', firesonicUrl);
-            localStorage.setItem('oneMoviesUrl', oneMoviesUrl);
+            localStorage.setItem('trailersToUrl', trailersToUrl);
 
             let vidTitle = "S" + numSzn + "E" + i + " " + tvDetail.name + " - LetMeWatch";
             localStorage.setItem('vidTitle', vidTitle);
@@ -869,7 +854,6 @@ const onSeasonSelect = async(tvDetail, numSzn, summaryElement) => {
             localStorage.setItem('lastWatchedSzn', numSzn + "");
             localStorage.setItem('lastWatchedType', "tv");
 
-            localStorage.setItem('trailersToUrl', trailersToUrl);
             chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
 
             //chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
@@ -1044,20 +1028,22 @@ chrome.storage.local.get('savedSummary', function(items) {
                     currEpisodeButton.style = 'background-image:linear-gradient( 136deg, #363636dc 10%, #c1c1c1 100%);'
 
                     let twoEmbUrl = "https://www.2embed.ru/embed/imdb/tv?id=" + tvIMDB + "&s=" + numSzn + "&e=" + i + "";
-                    let vidSrcUrl = "https://vidsrc.me/embed/" + tvIMDB + "/" + numSzn + "-" + i + "/";
+                    let vidSrcUrl = "https://v2.vidsrc.me/embed/" + tvIMDB + "/" + numSzn + "-" + i + "/";
                     let dbgoUrl = "https://dbgo.fun/imdbse.php?id=" + tvIMDB + "&s=" + numSzn + "&e=" + i;
+                    let firesonicUrl = "https://firesonic.sc/play_video.php?getvideo?key=UdK4VbZNuo02uapi&video_id=" + tvIMDB + "&s=" + numSzn + "&e=" + i;
                     let trailersToUrl = "https://Trailers.to/player/embed/imdb/" + tvIMDB + "/S" + numSzn + "E" + i + "";
-                    //let vidUrl = "https://firesonic.sc/play_video.php?video_id=" + tvIMDB + "&s=" + numSzn + "&e=" + i + "";
+
                     localStorage.setItem('twoEmbUrl', twoEmbUrl);
                     localStorage.setItem('vidSrcUrl', vidSrcUrl);
                     localStorage.setItem('dbgoUrl', dbgoUrl);
+                    localStorage.setItem('firesonicUrl', firesonicUrl);
+                    localStorage.setItem('trailersToUrl', trailersToUrl);
 
                     let vidTitle = "S" + numSzn + "E" + i + " " + document.getElementById("tvTitleSumm").innerText + " - LetMeWatch";
                     localStorage.setItem('vidTitle', vidTitle);
                     chrome.storage.local.set({ 'savedSummary': document.getElementById("summary").outerHTML });
                     localStorage.setItem('lastWatchedType', "tv");
 
-                    localStorage.setItem('trailersToUrl', trailersToUrl);
                     chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
                     //chrome.tabs.create({ url: chrome.runtime.getURL("../viewPage.html") });
                     /*(async() => {

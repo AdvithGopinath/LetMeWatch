@@ -2,6 +2,13 @@
 <html style="background-image:none;background-color: black;">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!--script src="js/adstop.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
@@ -15,26 +22,38 @@
 
 <body>
     <!--button class="pill-servers" id="serversButton" style="white-space:nowrap; position:fixed;z-index: 2;">TRAILERS.TO &nbsp;&nbsp;&#x25BE;</button-->
-    <button class="pill-servers" id="serversButton" style="white-space: nowrap;position: absolute;z-index: 2;top: 12px;/* display: table-column; */">
+    <!--button class="pill-servers" id="serversButton" style="white-space: nowrap;position: absolute;z-index: 2;top: 12px;/* display: table-column; */">
         2EMBED
         <div id="dropdownarrow" style="position: absolute;top: 6px;left: 135px;">&#x25BE;</div>
     </button>
-    <div id="serverOptions" style="display:none;">
-        <!--button class="pill-servers" id="vidSrcButton" style="position: fixed;z-index: 1;margin-top: 40px;">VIDSRC</button-->
+    <div id="serverOptions" style="display:none;"-->
+    <!--button class="pill-servers" id="vidSrcButton" style="position: fixed;z-index: 1;margin-top: 40px;">VIDSRC</button-->
 
-        <!--button class="pill-servers" id="vidCloudButton" style="position: fixed;z-index: 1;margin-top: 110px;">VIDCLOUD</button-->
-        <button class="pill-servers" id="dbgoButton" style="border-radius: 0px;padding-top: 14px;position: fixed;z-index: 1;margin-top: 34px;">DBOGO</button>
+    <!--button class="pill-servers" id="vidCloudButton" style="position: fixed;z-index: 1;margin-top: 110px;">VIDCLOUD</button-->
+    <!--button class="pill-servers" id="dbgoButton" style="border-radius: 0px;padding-top: 14px;position: fixed;z-index: 1;margin-top: 34px;">DBOGO</button>
         <button class="pill-servers" id="twoEmbButton" style="border-radius: 0px;padding-top: 15px;position: fixed;z-index: 1;margin-top: 68px;">2EMBED</button>
-        <button class="pill-servers" id="trailersToButton" style="/* border-radius: 0px; */border-top-left-radius: 0px;border-top-right-radius: 0px;padding-top: 14px;position: fixed;z-index: 1;margin-top: 104px;">TRAILERS.TO</button>
+        <button class="pill-servers" id="trailersToButton" style="border-top-left-radius: 0px;border-top-right-radius: 0px;padding-top: 14px;position: fixed;z-index: 1;margin-top: 104px;">TRAILERS.TO</button>
         <button class="pill-servers" id="movies123Button" style="display:none;position: fixed;z-index: 1;margin-top: 145px;">123MOVIE</button>
         <button class="pill-servers" id="oneMovieButton" style="display:none;position: fixed;z-index: 1;margin-top: 180px;">1MOVIETV</button>
         <button class="pill-servers" id="firesonicButton" style="display:none;position: fixed;z-index: 1;margin-top: 215px;">FIRESONIC</button>
 
+    </div-->
+
+    <div class="dropdown">
+        <button class="pill-servers btn btn-secondary dropdown-toggle" type="button" id="serversButton" style="z-index: 2;" data-bs-toggle="dropdown" aria-expanded="false">SERVER&nbsp;</button>
+        <ul class="pill-servers dropdown-menu dropdown-menu-dark" aria-labelledby="serversButton">
+            <li><a class="dropdown-item" href="#" id="twoEmbButton">2EMBED</a></li>
+            <li><a class="dropdown-item" href="#" id="firesonicButton">FIRESONIC</a></li>
+            <li><a class="dropdown-item" href="#" id="vidSrcButton">VIDSRC</a></li>
+            <li><a class="dropdown-item" href="#" id="trailersToButton">TRAILERS.TO</a></li>
+            <li> <a class="dropdown-item" href="#" id="dbgoButton">DBOGO</a></li>
+
+        </ul>
     </div>
     <!--div id="vidWrapper"-->
     <iframe id="titleVideo" sandbox="allow-scripts" allow="autoplay" frameborder="0 " allowFullScreen="true " webkitallowfullscreen="true " mozallowfullscreen="true " style="position: fixed;
-    top: 2px;
-     left: 2px; 
+    top: 0px;
+     left: 0px; 
     /* bottom: 0px; */
     /* right: 0; */
     width: -webkit-fill-available;
@@ -47,7 +66,7 @@
         </iframe>
     <!--/div-->
     <script src="js/viewPage.js "></script>
-
+    <script src="js/third-party/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> nn
 </body>
 
 </html>
