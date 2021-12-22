@@ -958,8 +958,9 @@ chrome.storage.local.get('savedSummary', function(items) {
                         }
                     });
                 }
+                window.close();
+
             });
-            window.close();
         } else if (localStorage.getItem('lastWatchedType') === 'tv') {
             console.log("saved - tv");
 

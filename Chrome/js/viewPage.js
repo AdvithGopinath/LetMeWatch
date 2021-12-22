@@ -29,6 +29,7 @@ serverButt.addEventListener('click', () => {
 });
 */
 vidSrcButt.addEventListener('click', () => {
+    titleVideo.style.display = "none";
     titleVideo.removeAttribute('sandbox');
     titleVideo.src = vidSrcUrl;
     titleVideo.contentWindow.location.href = vidSrcUrl;
@@ -40,6 +41,7 @@ vidSrcButt.addEventListener('click', () => {
     titleVideo.style.top = "-50px";
     titleVideo.style.height = "105%";
 
+    titleVideo.style.display = "unset";
 
 
     // serverOptions.style.display = "none";

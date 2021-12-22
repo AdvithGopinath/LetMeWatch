@@ -58,6 +58,7 @@ dbgoButt.addEventListener('click', () => {
     serverButt.innerText = "DBOGO ";
     titleVideo.style.top = "4px";
     titleVideo.style.left = "0px";
+    titleVideo.style.height = "100%";
     titleVideo.style.display = "unset";
 
 
@@ -86,6 +87,8 @@ trailersToButton.addEventListener('click', () => {
     `;
     titleVideo.style.top = "33px";
     titleVideo.style.left = "0px";
+    titleVideo.style.height = "100%";
+
     titleVideo.style.display = "unset";
 
     //serverButt.style.width = "175px";
@@ -105,6 +108,8 @@ twoEmbButt.addEventListener('click', () => {
     `;
     titleVideo.style.top = "-2px";
     titleVideo.style.left = "0px";
+    titleVideo.style.height = "100%";
+
     titleVideo.style.display = "unset";
 
     //serverOptions.style.display = "none";

@@ -18,7 +18,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     switch (reason) {
         case 'install':
             console.log('New User installed the extension.')
-            chrome.tabs.create({ url: chrome.runtime.getURL("https://letmewatch.app/install.html") });
+            chrome.tabs.create({ url: "https://letmewatch.app/install.html" });
             break;
         case 'update':
             console.log('User has updated their extension.')
