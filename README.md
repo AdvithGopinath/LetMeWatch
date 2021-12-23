@@ -1,7 +1,7 @@
 # LetMeWatch
 ### A seamless watching experience contained in a browser extension
 
-LetMeWatch is a browser extension that offers end-to-end movie/TV show streaming, maximizing ease of use and convenience by sifting through a multitude of free streaming services and locating the highest-caliber video that is available.   
+LetMeWatch is a browser extension that offers end-to-end movie/TV show streaming, maximizing ease of use and convenience by sifting through a multitude of free streaming services and locating the highest-caliber video that is available. You can learn more at our website: [letmewatch.app](https://letmewatch.app).
 
 ## Features
 
@@ -21,6 +21,14 @@ After installing LetMeWatch, press Ctrl+M (Windows) or Command+M (Mac) to discov
 ![Alt text](/Chrome/images/web_git_sc1.png)
 ![Alt text](/Chrome/images/web_git_sc2.png)
 
-## Bugs/Issues & Feedback
+## Feedback 
 
-If you come across any bugs/issues, or have any feedback whatsoever, it would be greatly appreciated if you logged it as a ticket in Issues. Thank you for supporting LetMeWatch!
+If you come across any bugs/issues, or have any feedback whatsoever, it would be greatly appreciated if you logged it as a ticket in Issues. 
+
+## Donations
+
+LetMeWatch will be free forever, but donations are always appreciated :) If you liked LetMeWatch, you can help support it and future projects here:
+
+[BuyMeACoffee](https://www.buymeacoffee.com/AddyCo) [CashApp](https://cash.app/$AddyCo1)
+
+Thank you for checking out LetMeWatch!
