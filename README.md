@@ -18,8 +18,8 @@ After installing LetMeWatch, press Ctrl+M (Windows) or Command+M (Mac) to discov
 
 ## Usage
 
-![Alt text](/Chrome/images/web_newsc1.png)
-![Alt text](/Chrome/images/web_newsc2.png)
+![Alt text](/Chrome/images/web_git_sc1.png)
+![Alt text](/Chrome/images/web_git_sc2.png)
 
 ## Bugs/Issues & Feedback
 
