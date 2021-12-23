@@ -14,7 +14,7 @@ LetMeWatch is a browser extension that offers end-to-end movie/TV show streaming
 
 LetMeWatch is currently available for all Chromium browsers (Chrome, Edge, Opera, etc.) at the official [Chrome webstore](https://chrome.google.com/webstore/detail/letmewatch/lalbidfnmdmafompodhbmppbpakipaah), as well as for Mozilla Firefox at the [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/). 
 
-After installing LetMeWatch, press Ctrl+M (Windows) or Command+M (Mac) to discover a supreme viewing experience!
+After installing LetMeWatch, press Alt+M (Windows) or Opt+M (Mac) to discover a supreme viewing experience!
 
 ## Usage
 
