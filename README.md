@@ -1,7 +1,7 @@
 # LetMeWatch
-### A seamless watching experience in a Chrome extension
+### A seamless watching experience contained in a browser extension
 
-LetMeWatch is a Google Chrome extension that offers end-to-end movie/TV show streaming, maximizing ease of use and convenience by sifting through a multitude of free streaming services and locating the highest-caliber video that is available.   
+LetMeWatch is a browser extension that offers end-to-end movie/TV show streaming, maximizing ease of use and convenience by sifting through a multitude of free streaming services and locating the highest-caliber video that is available.   
 
 ## Features
 
@@ -12,16 +12,14 @@ LetMeWatch is a Google Chrome extension that offers end-to-end movie/TV show str
 
 ## Installation
 
-[Get LetMeWatch](https://chrome.google.com/webstore/detail/letmewatch/lalbidfnmdmafompodhbmppbpakipaah
-) from the official Google Chrome Webstore, and start watching your favorite titles in seconds!
+LetMeWatch is currently available for all Chromium browsers (Chrome, Edge, Opera, etc.) at the official [Chrome webstore (https://chrome.google.com/webstore/detail/letmewatch/lalbidfnmdmafompodhbmppbpakipaah), as well as for Mozilla Firefox at the [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/). 
 
 After installing LetMeWatch, press Ctrl+M (Windows) or Command+M (Mac) to discover a supreme viewing experience!
 
 ## Usage
 
-![Alt text](/Chrome/images/LMW_NEWSC1.jpg)
-![Alt text](/Chrome/images/LMW_NEWSC2.jpg)
-![Alt text](/Chrome/images/LMW_NEWSC3.jpg)
+![Alt text](/Chrome/images/web_newsc1.png)
+![Alt text](/Chrome/images/web_newsc2.png)
 
 ## Bugs/Issues & Feedback
 
