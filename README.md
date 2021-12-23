@@ -29,6 +29,6 @@ If you come across any bugs/issues, or have any feedback whatsoever, it would be
 
 LetMeWatch will be free forever, but donations are always appreciated :) If you liked LetMeWatch, you can help support it and future projects here:
 
-[BuyMeACoffee](https://www.buymeacoffee.com/AddyCo) [CashApp](https://cash.app/$AddyCo1)
+[BuyMeACoffee](https://www.buymeacoffee.com/AddyCo) [CashApp](https://cash.app/$AddyCo1) [Venmo] (https://venmo.com/AddyCo?txn=pay&note=LetMeWatch%20donation)
 
 Thank you for checking out LetMeWatch!
