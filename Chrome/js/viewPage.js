@@ -39,8 +39,6 @@ vidSrcButt.addEventListener('click', () => {
 
     titleVideo.style.left = "0px";
     titleVideo.style.top = "-50px";
-    titleVideo.style.height = "105%";
-
     titleVideo.style.display = "unset";
 
 
